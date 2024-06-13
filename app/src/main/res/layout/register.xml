@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_background">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/logo2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:orientation="horizontal"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp">
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Username"
+            android:textAlignment="center"
+            android:textColor="#FFFEFE"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/rgstr_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:background="@drawable/custom_imput"
+            android:padding="6dp"
+            android:textColor="#000"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Password"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/rgstr_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:background="@drawable/custom_imput"
+            android:padding="6dp"
+            android:textColor="#000"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/rgstr_signup_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#980a2c"
+        android:paddingLeft="24dp"
+        android:paddingTop="6dp"
+        android:paddingRight="24dp"
+        android:paddingBottom="6dp"
+        android:text="Sign up"
+        android:textSize="20sp"
+        app:cornerRadius="30dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/custom_butoon"
+        android:fontFamily="@font/roboto_regular"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="Already have an Account?"
+        android:textAlignment="center"
+        android:textColor="#980a2c"
+        android:textSize="20sp"
+        android:fontFamily="@font/roboto_regular"/>
+
+    <Button
+        android:id="@+id/rgstr_login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#980a2c"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="24dp"
+        android:paddingTop="6dp"
+        android:paddingRight="24dp"
+        android:paddingBottom="6dp"
+        android:text="Login"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/custom_butoon"
+        app:cornerRadius="30dp"
+        android:textAllCaps="false"/>
+
+</LinearLayout>

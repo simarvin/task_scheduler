@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_month"
+    android:layout_margin="1dp">
+    
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:background="@drawable/bg_month"
+        android:layout_centerInParent="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_month">
+
+            <TextView
+                android:id="@+id/month_txtView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="FEBRUARY"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="35sp"
+                android:fontFamily="@font/alfa_slab_one_regular"
+                android:background="@drawable/bg_month"
+                />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
